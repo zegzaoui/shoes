@@ -1,0 +1,395 @@
+ body{
+         background-color:#5A8962;
+         height: 56em;
+         width: 99%;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Aldrich&display=swap');
+header{
+    width: 93em;
+    height: 385px;
+    color: #f0fdbe;
+    }
+.headerNav{
+    display: flex;
+    height: 8em;
+    width: 93em;
+    background-color: #38543B;
+    }
+.logo{
+        height: 5em;
+        width: 6em;
+    }
+h3{
+    height: 2em;
+    width: 2em;
+}
+h1{
+    height: 1em;
+    width: 9em;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 7em;
+    margin: 0%;
+}
+.h2{height: 2em;
+    width: 2em;
+    display:inline;
+
+}
+.p2{height: 2em;
+    width: 2em;
+
+}
+
+.recherche {
+    height: 4em;
+    width: 29em;
+    display: flex;
+    margin: 8em;
+}
+.btn1{
+    height: 43px;
+    width: 3em;
+    border-radius: 9px;
+    background-color: #37359E;
+}
+input{
+    height: 3em;
+    width: 6em;
+    border: none;
+}
+.btn2{
+    height: 43px;
+    width: 3em;
+    border-radius: 9px;
+    background-color: #37359E;
+    color:yellow;
+}
+.titre{
+    height: 10em;
+    width: 10em;
+}
+.titi{
+    height: 10em;
+    width: 50em;
+    font-family: 'Advent Pro', sans-serif;
+    margin-left: 165%;
+}
+.one{
+    width: 94em;
+    display: flex;
+    background-color: #5A8962;
+    }  
+.two {
+    width: 469%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #5A8962; 
+    margin-bottom: 20%;
+     }
+.three{
+    width: 450%;
+      display: flex;
+       flex-wrap:wrap;
+       justify-content: space-around;
+     padding: 6px;
+}
+.four{width: 450%;
+    height: 30em;
+    margin: auto;
+    display: flex;
+    padding: 26px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+     justify-content: space-around;
+   background-color: #5A8962; 
+      } 
+.five{
+    background-image: url('images/prairie.jpg');
+    background-size: 100%;
+    width: 477%;
+    height: 99%;
+    display: flex;
+    color: white;
+    background-position: center;
+    padding: 3vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.five div{
+    width: 30%;
+    font-size: 2em;
+}
+
+.newyork{
+    height: 32rem;
+    width: 63rem;
+}
+.chicago{
+    height: 32em;
+    width: 31em;
+}
+.miami{
+    background-image: url('images/miniature.jpg');
+    background-position: center;
+    background-size: 100%;
+    height: 35em;
+    width: 20rem;
+    border: solid 7px;
+    margin: 3px;
+}
+.houston{
+    background-image: url('images/birkenstockBlue.jpg');
+    background-position: center;
+    background-size: 100%;
+    height: 15em;
+    width: 35rem;
+    border: solid 7px;
+    margin: 5px;
+}
+.washington{
+    background-image: url('images/converse\ news.jpg');
+    background-position: center;
+    background-size: 100%;
+    height: 34em;
+    width: 25rem;
+    border: solid 7px;
+    margin: 5px;
+}
+.dallas{
+    background-image: url('images/addidas.jpg');
+    background-position: center;
+    background-size: 100%;
+    height: 15em;
+    width: 35rem;
+    border: solid 5px;
+    margin: 7px;
+}
+.san francisco{
+    height: 17rem;
+    width: 90%;
+ 
+}
+
+.hd{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.un{ 
+    background-image: url('images/newyokscoe.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-color: #5A8962;
+    height: 35em;
+    width: 63em;
+    mix-blend-mode: overlay;
+     }
+
+.un p{
+    font-size: 90px;
+    font-family: 'Advent Pro', sans-serif;
+    color: #37359E;
+    margin: 0%;
+}
+
+.un button{
+    width: 13%;
+    height: 10%;
+    margin-left: 3vw;
+    margin-top: 20vw;
+    color: #F0FDBE;
+    background: linear-gradient(#37359E,black);
+    border-radius: 10px;
+    border: none;
+    font-size: 1.3vw;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.deux{
+    background-image: url('images/sneacker-header.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-color: #5A8962;
+    height: 35em;
+    width: 33%;
+    mix-blend-mode: overlay;
+}
+
+.deux p{
+    font-size: 60px;
+    font-family: 'Advent Pro', sans-serif;
+    color: #37359E;
+    margin: 0%;
+}
+
+.trois{
+    background-position: center;
+    background-size: 100%;
+    background-color: #5A8962;
+    border: solid 5px;
+    height: 20em;
+    width: 21%;
+}
+
+.trois3{
+    display: flex;
+    font-size: 1vw;
+    padding: 1vw;
+    margin-top: 12vw;
+    height: 7vw;
+    width: auto;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.dix{display: flex;
+    font-size: 1vw;
+    padding: 1vw;
+    margin-top: -14vw;
+    height: 47vw;
+    width: 86%;
+    height: 12vw;
+    border: solid 5px;
+    direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+    }
+
+.nouveau{
+    position: absolute;
+    background-color: #37359E;
+    color: #F0FDBE;
+    width: 4.5vw;
+    height: 1vw;
+    align-items: center;
+    margin: 1vw;
+    padding: 0.2vw;
+    font-size: 0.9vw;
+}
+
+.quatre{
+    background-color: #5A8962;
+    height: 17em;
+    width: 99%;
+}
+.cinq{
+    background-position: center;
+    background-size: 200%;
+    background-color: #5A8962;
+    border: solid 5px;
+    height: 20em;
+    width: 21%;
+}
+.six{
+    height: 32em;
+    width: 59%;
+}
+.neuf{
+     height: 32em;
+    width: 59%;
+
+}
+main{     
+           width: 21%;
+        background-color: #5A8962;
+     }
+
+img {
+    height: 15rem;
+    width: 95%;}
+
+.headerNavLink {
+         padding: 2rem;
+         text-align: center;
+         border-top: 3px white;
+         border-bottom: 3px transparent solid;
+    }
+.headerSignup{
+         padding: 2rem;
+         text-align: center;
+         border-top: 3px transparent solid;
+         border-bottom: 3px transparent solid;  
+    }
+nav{
+         display:flex;
+         flex-direction:row;
+         justify-content:space-around ;
+    } 
+.p{      background-color:bleu;
+         color:rgb(45, 151, 75);
+    }
+.filter {
+         align-items: center;
+          justify-content: center;
+         height: 50px;
+         width: 230px;
+         border-radius: 50%;
+         background-color:#5A8962;
+         color:white;
+    }
+.filter_container{  
+         display: flex;
+         align-items: center;
+         margin-right: 25px;
+         margin-bottom: 12px;
+         height: 45px;
+         border: 1px solid #5A8962;
+         width: fit-content;
+         border-radius: 25px;
+         transition: ease-in-out 0.5s;
+         flex-wrap:nowrap;
+         background-color: #5A8962;
+    }
+
+.etoile{ color: yellow}
+
+.reseaux{
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.reseaux img{
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    border-radius: 20px;
+}
+
+.paiement{
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.paiement img{
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    border-radius: 20px;
+}
+
+.redirection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.2em;
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+}
+
+.redirection div{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 14em;
+}
+
+ footer {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    } 
