@@ -80,7 +80,7 @@ input{
     /* margin-left: %; */
 }
 .one{
-    width: 92em;
+    width: 99%;
     display: flex;
     background-color: #5A8962;
     }  
@@ -400,3 +400,100 @@ nav{
     flex-direction: column;
     justify-content:space-around;
     } 
+
+
+    @media screen and (max-width: 1024px) {
+        h1{
+            font-size: 4em;
+        }
+        .recherche{
+            flex-direction: column;
+            align-items: center;
+            margin: 2em 0;
+            width: 100%;
+        }
+        .recherche input, .recherche .btn1, .recherche .btn2{
+            width: 80%;
+            margin-bottom: 1em;
+        }
+        .five div{
+            width: 90%;
+            font-size: 1.5em;
+        }
+        .newyork, .chicago, .houston, .washington, .dallas, .miami{
+            width: 100%;
+            height: auto;
+        }
+        .headerNav, .headerNavLink, .headerSignup, nav{
+            flex-direction: column;
+            align-items: center;
+        }
+        .headerNavLink, .headerSignup{
+            padding: 1rem;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        h1{
+            font-size: 3em;
+        }
+        .recherche{
+            margin: 1em 0;
+        }
+        .headerNav{
+            flex-direction: column;
+            align-items: center;
+        }
+        .headerNavLink, .headerSignup{
+            padding: 0.5rem;
+        }
+        .filter, .filter_container{
+            width: 80%;
+        }
+        .five div{
+            width: 100%;
+            font-size: 1.2em;
+        }
+        .newyork, .chicago, .houston, .washington, .dallas, .miami{
+            width: 100%;
+            height: auto;
+        }
+        .hd{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        h1{
+            font-size: 2em;
+        }
+        .recherche{
+            margin: 0.5em 0;
+        }
+        .headerNav{
+            flex-direction: column;
+            align-items: center;
+        }
+        .headerNavLink, .headerSignup{
+            padding: 0.2rem;
+        }
+        .filter, .filter_container{
+            width: 100%;
+        }
+        .five div{
+            width: 100%;
+            font-size: 1em;
+        }
+        .newyork, .chicago, .houston, .washington, .dallas, .miami{
+            width: 100%;
+            height: auto;
+        }
+        .hd{
+            flex-direction: column;
+            align-items: center;
+        }
+        .btn1, .btn2, input{
+            width: 100%;
+        }
+    }
